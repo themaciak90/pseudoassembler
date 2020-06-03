@@ -1,0 +1,23 @@
+mov (25-2)*3,%eax 	 	 	
+mov (%eax-4*(1-2)),%eax						
+push %eax
+int 0x80					
+xor %eax, %ebx						
+push %eax
+push %ebx		
+int 0x80					
+int 0x80					
+mov ((14*7)*(14-3))*(2+(10*3))*2, %edx		
+push %edx  	 	 	 
+int 0x80	saffs
+int 0x80	
+int  0x80
+int 0x80
+mov 2, %edx
+mov 7, %ecx
+xor %ecx, %edx
+push %edx
+int 0x80 	 			
+mov (10-10-10)*(11-15*8)+(1-2*15*(7*2)+12), %eax
+push %eax	
+int 0x80

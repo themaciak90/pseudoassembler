@@ -1,0 +1,102 @@
+mov 12-%edx,%eax
+push %eax
+int 0x80
+mov (4+6)*2, %edx							
+push %edx*2									
+int 0x80									
+push %edx
+push %ecx									
+int 0x80									
+int 0x80									
+mov 4 - 1, %ecx 							
+mov 4 - , %ecx								
+push %ecx									
+int 0x80									
+mov 24, %ecx								
+xor %ebx, %ebx								
+mov %ebx + 3 + %edx*2 + 5 - %ecx, %ecx		
+push %edx + %ecx + %ebx						
+int 0x80									
+push 215									
+int 0x80									
+mov 215, addddd								
+mov %ecx, 215	
+	
+  mov %eax - 421 - %ebx, %ecx
+push %ecx
+int 0x80
+
+mov 2-40,%eax
+mov 7*%eax,%ebx
+mov %eax-12,%ecx
+mov 9+%eax, %edx
+push %eax
+push %ebx
+push %ecx
+push %edx
+int 0x80
+int 0x80
+int 0x80
+int 0x80		
+mov 12,%ebx ,%eax					
+push -12-2
+mov (25-2)*3,%eax 	 	 	
+mov (%eax-4*(1-2)),%eax						
+push %eax
+int 0x80					
+xor %eax, %ebx					
+push %eax
+push %ebx
+int 0x80						
+int 0x80					
+mov ((14*7)*(14-3))*(2+(10*3))*2, %edx
+push %edx
+int 0x80	saffs				
+int 0x80					
+int  0x80					
+int 0x80					
+mov 2, %edx
+mov 7, %ecx
+xor %ecx, %edx
+push %edx
+int 0x80 					
+mov (10-10-10)*(11-15*8)+(1-2*15(7*2)+12), %eax
+mov (10-10-10)*(11-15*8)+(1-2*15*(7*2)+12), %eax
+push %eax	
+int 0x80					
+mov (25-2)*3,%eax
+mov ( 25-2)*3,%eax
+mov (25 -2)*3,%eax
+mov (25- 2)*3,%eax
+mov (25-2 )*3,%eax
+mov (25-2) *3,%eax
+mov (25-2)* 3,%eax
+mov (25-2)*3 ,%eax
+mov (25-2)*3, %eax
+mov 22,%eax
+mov 22 ,%eax
+mov 22, %eax
+mov (%eax-4*(1-2)),%eax
+mov (%eax-4* (1-2)),%eax
+mov (%eax -4*(1-2)), %eax
+mov ( %eax-4 *(1-2)),%eax
+mov ( %eax-4*(1 -2)),%eax   
+mov ( %eax-4*(1- 2)),%eax  
+mov ( %eax-4*(1- 2) ),%eax  
+mov ( %eax-4* ( 1 - 2) ),%eax  
+mov ( %eax - 4 * ( 1 - 2) ),%eax 
+mov (%eax-5) * (2-1) + (1+1),%eax 
+mov (%eax- 5) * (2-1) + (1+1),%eax 
+mov (%eax-5) *(2-1)+(1+1),%eax 
+mov (%eax-5) *(2-1 )+ ( 1+1),%eax 
+xor %eax,%eax
+xor %eax, %eax
+xor %eax ,%eax
+xor %eax ,%eax   
+push %eax
+push 4     
+push 5-2
+push 5- 2
+push 5 -2
+push 5 - 2
+
